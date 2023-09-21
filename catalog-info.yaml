@@ -1,0 +1,42 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: exhort-backstage-comp
+  links:
+    - title: github
+      url: https://github.com/RHEcosystemAppEng/exhort
+    # - title: docs   
+    #   url: 
+    # - title: Slack Channel
+    #   url:      
+    - title: Tekton Task
+      url: https://github.com/tektoncd/catalog/tree/main/task/redhat-dependency-analytics/0.1
+    - title: Repo VsCode plugin
+      url: https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension
+    - title: Repo Intelij plugin
+      url: https://github.com/redhat-developer/intellij-dependency-analytics
+    - title: Repo Jenkins plugin
+      url:  https://github.com/RHEcosystemAppEng/redhat-dependency-analytics-plugin
+    - title: quay
+      url: https://quay.io/repository/ecosystem-appeng/exhort  
+    - title: Amplitude 
+      url: https://app.amplitude.com/analytics/redhat/space/bxw9cr0/all
+    - title: Segmant 
+      url: https://app.segment.com/redhat-devtools/sources/exhort_prod/schema/events
+    - title: Grafana 
+      url: https://grafana.stage.devshift.net/d/trusted-content-exhort/exhort?orgId=1&from=now-12h&to=now&var-datasource=app-sre-prod-01-prometheus&var-namespace=exhort-production
+
+  annotations:
+    github.com/project-slug: RHEcosystemAppEng/exhort
+    quay.io/repository-slug: ecosystem-appeng/exhort
+    # jira plugin
+    # grafana plugin
+
+spec:
+  type: service
+  lifecycle: production
+  owner: cloud-native-team
+
+
+
+

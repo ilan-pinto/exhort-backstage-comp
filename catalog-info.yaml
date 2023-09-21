@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: exhort-backstage-comp
+  annotations:
+    github.com/project-slug: ilan-pinto/exhort-backstage-comp
+spec:
+  type: other
+  lifecycle: unknown
+  owner: cloud-native-team

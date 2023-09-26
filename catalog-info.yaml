@@ -30,7 +30,9 @@ metadata:
     github.com/project-slug: RHEcosystemAppEng/exhort
     quay.io/repository-slug: ecosystem-appeng/exhort
     # jira plugin
-    # grafana plugin
+    jira/project-key: APPENG
+    jira/component: Secure Supply Chain
+    jira/label: exhort
 
 spec:
   type: service
